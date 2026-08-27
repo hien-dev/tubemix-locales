@@ -13,7 +13,7 @@ if [[ ! -f "$CHECKER" ]]; then
   exit 1
 fi
 
-node "$CHECKER" "$ROOT/locales" || {
+node "$CHECKER" "$ROOT" || {
   echo "" >&2
   echo "pre-commit: bản dịch có mục app sẽ bỏ qua. Sửa trước khi commit." >&2
   exit 1

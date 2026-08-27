@@ -4,13 +4,13 @@ Bản dịch của [TubeMix Mobile](https://github.com/hien-dev/TubeMix-Mobile),
 app để **sửa chữ mà không phải build lại và nộp App Store duyệt**.
 
 ```
-locales/vi.json  en.json  ko.json  ja.json  zh.json  fr.json
+vi.json  en.json  ko.json  ja.json  zh.json  fr.json
 ```
 
 App tải file của ngôn ngữ đang dùng rồi đè lên bản đóng sẵn trong bundle:
 
 ```
-https://raw.githubusercontent.com/hien-dev/tubemix-locales/main/locales/<mã>.json
+https://raw.githubusercontent.com/hien-dev/tubemix-locales/main/<mã>.json
 ```
 
 ## Sửa thế nào
@@ -38,7 +38,7 @@ hay Ả Rập (6 dạng).
 Không có vòng duyệt nào phía sau repo này. Đẩy nhầm là tới thẳng người dùng.
 
 ```bash
-node ../TubeMix-Mobile/scripts/check-i18n.mjs locales
+node ../TubeMix-Mobile/scripts/check-i18n.mjs .
 ```
 
 Bật chặn tự động một lần cho mỗi bản sao:
