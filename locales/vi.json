@@ -1,0 +1,169 @@
+{
+  "brand": "TubeMix",
+  "tabs": {
+    "discover": "Khám phá",
+    "search": "Tìm kiếm",
+    "downloads": "Đã tải",
+    "history": "Lịch sử"
+  },
+  "common": {
+    "cancel": "Huỷ",
+    "delete": "Xoá",
+    "create": "Tạo",
+    "back": "Quay lại",
+    "error": "Lỗi",
+    "seeAll": "Xem tất cả",
+    "loadFailed": "Không tải được",
+    "goToSearch": "Tìm nhạc"
+  },
+  "discover": {
+    "title": "Khám phá",
+    "recentlyPlayed": "Nghe gần đây",
+    "favorites": "Yêu thích",
+    "openAria": "Mở {0}",
+    "recentSearches": "Tìm gần đây",
+    "emptyTitle": "Chưa có gì ở đây",
+    "emptyBody": "Tìm một bài hát để bắt đầu. Những bài bạn nghe sẽ xuất hiện ở màn hình này.",
+    "openSettings": "Cài đặt",
+    "playAria": "Phát {0}"
+  },
+  "search": {
+    "title": "Tìm kiếm",
+    "placeholder": "Tìm bài hát, nghệ sĩ, album…",
+    "inputAria": "Ô tìm kiếm",
+    "clearAria": "Xoá ô tìm kiếm",
+    "recentTitle": "Tìm gần đây",
+    "emptyTitle": "Bắt đầu nghe nhạc",
+    "emptyBody": "Nhập tên bài hát, nghệ sĩ hoặc album để bắt đầu tìm.",
+    "noResults": "Không tìm thấy kết quả nào.",
+    "loadFailed": "Không tải được kết quả.",
+    "searchAgainAria": "Tìm lại: {0}",
+    "removeKeywordAria": "Xoá từ khoá {0}",
+    "filters": {
+      "all": "Tất cả",
+      "songs": "Videos",
+      "albums": "Album",
+      "artists": "Nghệ sĩ",
+      "live": "Trực tiếp"
+    }
+  },
+  "downloads": {
+    "title": "Đã tải",
+    "inProgress": "Đang tải",
+    "waitingForNetwork": "đang chờ mạng",
+    "emptyTitle": "Chưa tải bài nào",
+    "emptyBody": "Bấm nút tải ở trình phát để lưu bài về máy. Bài đã tải nghe được cả khi không có mạng.",
+    "usage": "{0} bài · {1}",
+    "download": "Tải về máy",
+    "downloaded": "Đã tải về máy",
+    "cancelAria": "Huỷ tải {0}",
+    "removeTitle": "Xoá bản đã tải",
+    "removeMessage": "Xoá \"{0}\" khỏi máy? Bài vẫn nghe được khi có mạng.",
+    "failed": "Tải \"{0}\" thất bại. Kiểm tra mạng rồi thử lại.",
+    "removeFailed": "Không xoá được bản đã tải.",
+    "listFailed": "Không đọc được danh sách đã tải.",
+    "done": "Đã tải xong \"{0}\"",
+    "sizeWarning": "Bài này nặng khoảng {0} vì chỉ có luồng kèm hình để tải. Tải về?"
+  },
+  "favorites": {
+    "title": "Yêu thích",
+    "emptyTitle": "Chưa lưu album nào",
+    "emptyBody": "Bấm trái tim ở một album hay nghệ sĩ để lưu lại, lần sau mở thẳng từ đây."
+  },
+  "history": {
+    "title": "Lịch sử",
+    "clearAll": "Xoá tất cả",
+    "clearAria": "Xoá toàn bộ lịch sử",
+    "clearTitle": "Xoá lịch sử",
+    "clearMessage": "Toàn bộ lịch sử nghe sẽ bị xoá. Không thể hoàn tác.",
+    "emptyTitle": "Chưa nghe bài nào",
+    "emptyBody": "Những bài bạn phát sẽ được lưu lại ở đây, kể cả khi offline.",
+    "unknownAuthor": "Không rõ"
+  },
+  "player": {
+    "nowPlaying": "ĐANG PHÁT",
+    "paused": "TẠM DỪNG",
+    "loading": "ĐANG TẢI",
+    "queueTitle": "HÀNG ĐỢI · {0} BÀI",
+    "openQueue": "Mở hàng đợi",
+    "closeQueue": "Đóng hàng đợi",
+    "pictureInPicture": "Thu nhỏ thành cửa sổ nổi",
+    "fullscreen": "Xem toàn màn hình",
+    "close": "Đóng trình phát",
+    "progressAria": "Thanh tiến trình",
+    "shuffle": "Phát ngẫu nhiên",
+    "previous": "Bài trước",
+    "next": "Bài kế tiếp",
+    "play": "Phát",
+    "pause": "Tạm dừng",
+    "emptyTitle": "Chưa phát bài nào",
+    "emptyBody": "Chọn một bài từ danh sách để bắt đầu.",
+    "hint": "Vẫn phát khi bạn thoát app · Chuyển bài cần mở lại TubeMix",
+    "videoAria": "Video: {0}",
+    "playAria": "Phát {0}",
+    "repeat": {
+      "off": "Không lặp",
+      "all": "Lặp danh sách",
+      "one": "Lặp một bài"
+    }
+  },
+  "miniPlayer": {
+    "openAria": "Mở trình phát: {0}"
+  },
+  "detail": {
+    "playAll": "Phát tất cả",
+    "noTracks": "Không có bài nào",
+    "trackCount": "{0} bài",
+    "saveAria": "Thêm {0} vào Yêu thích",
+    "unsaveAria": "Bỏ {0} khỏi Yêu thích",
+    "saveFailed": "Không lưu được. Thử lại nhé."
+  },
+  "playlist": {
+    "fallbackTitle": "Playlist",
+    "openFailed": "Không mở được playlist này.",
+    "loadFailed": "Không tải được playlist.",
+    "emptyBody": "Playlist này không có bài nào phát được."
+  },
+  "artist": {
+    "fallbackTitle": "Nghệ sĩ",
+    "openFailed": "Không mở được trang nghệ sĩ này.",
+    "loadFailed": "Không tải được dữ liệu.",
+    "emptyBody": "Nghệ sĩ này chưa có video nào phát được."
+  },
+  "collection": {
+    "fallbackTitle": "Playlist",
+    "subtitle": "{0} bài · lưu trên máy",
+    "emptyBody": "Playlist trống. Thêm bài từ màn hình tìm kiếm."
+  },
+  "track": {
+    "noTitle": "Không có tiêu đề",
+    "moreAria": "Tuỳ chọn cho {0}",
+    "badgePlaylist": "Playlist",
+    "badgeArtist": "Nghệ sĩ"
+  },
+  "time": {
+    "justNow": "vừa xong",
+    "minutesAgo": "{0} phút trước",
+    "hoursAgo": "{0} giờ trước",
+    "yesterday": "hôm qua",
+    "daysAgo": "{0} ngày trước"
+  },
+  "errors": {
+    "offline": "Không có kết nối mạng. Kiểm tra Wi-Fi hoặc dữ liệu di động rồi thử lại.",
+    "serverError": "Không tải được dữ liệu từ máy chủ. Thử lại sau ít phút.",
+    "videoUnplayable": "Video không phát được",
+    "noStream": "Không tìm thấy luồng phát được cho video này",
+    "playFailed": "Không phát được bài này",
+    "playFailedNamed": "Không phát được \"{0}\"",
+    "stalled": "Không tải được dữ liệu. Kiểm tra mạng hoặc thử bài khác."
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "language": "Ngôn ngữ",
+    "languageSystem": "Theo hệ thống",
+    "languageHint": "Áp dụng ngay, không cần khởi động lại app.",
+    "about": "Giới thiệu",
+    "aboutBody": "TubeMix Mobile là bản di động của TubeMix trên desktop. App phát nhạc trực tuyến và giữ tiếng chạy tiếp khi bạn thoát ra hoặc khoá màn hình.",
+    "version": "Phiên bản"
+  }
+}

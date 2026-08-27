@@ -1,0 +1,187 @@
+{
+  "brand": "TubeMix",
+  "tabs": {
+    "discover": "Discover",
+    "search": "Search",
+    "downloads": "Downloads",
+    "history": "History"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "create": "Create",
+    "back": "Back",
+    "error": "Error",
+    "seeAll": "See all",
+    "loadFailed": "Could not load",
+    "goToSearch": "Find music"
+  },
+  "discover": {
+    "title": "Discover",
+    "recentlyPlayed": "Recently played",
+    "favorites": "Favorites",
+    "openAria": "Open {0}",
+    "recentSearches": "Recent searches",
+    "emptyTitle": "Nothing here yet",
+    "emptyBody": "Search for a song to get started. What you play will show up here.",
+    "openSettings": "Settings",
+    "playAria": "Play {0}"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search songs, artists, albums…",
+    "inputAria": "Search field",
+    "clearAria": "Clear search",
+    "recentTitle": "Recent searches",
+    "emptyTitle": "Start listening",
+    "emptyBody": "Type a song, artist, or album name to start searching.",
+    "noResults": "No results found.",
+    "loadFailed": "Could not load results.",
+    "searchAgainAria": "Search again: {0}",
+    "removeKeywordAria": "Remove keyword {0}",
+    "filters": {
+      "all": "All",
+      "songs": "Videos",
+      "albums": "Albums",
+      "artists": "Artists",
+      "live": "Live"
+    }
+  },
+  "downloads": {
+    "title": "Downloads",
+    "inProgress": "Downloading",
+    "waitingForNetwork": "waiting for network",
+    "emptyTitle": "Nothing downloaded",
+    "emptyBody": "Tap the download button in the player to save a song. Downloaded songs play without a connection.",
+    "usage": {
+      "one": "1 song · {1}",
+      "other": "{0} songs · {1}"
+    },
+    "download": "Download",
+    "downloaded": "Saved on this device",
+    "cancelAria": "Cancel download of {0}",
+    "removeTitle": "Remove download",
+    "removeMessage": "Remove \"{0}\" from this device? You can still stream it online.",
+    "failed": "Could not download \"{0}\". Check your connection and retry.",
+    "removeFailed": "Could not remove the download.",
+    "listFailed": "Could not read the downloads list.",
+    "done": "Finished downloading \"{0}\"",
+    "sizeWarning": "This one is about {0} because only a stream that includes video is available. Download it?"
+  },
+  "favorites": {
+    "title": "Favorites",
+    "emptyTitle": "Nothing saved yet",
+    "emptyBody": "Tap the heart on an album or artist to save it. It will show up here."
+  },
+  "history": {
+    "title": "History",
+    "clearAll": "Clear all",
+    "clearAria": "Clear all history",
+    "clearTitle": "Clear history",
+    "clearMessage": "Your entire listening history will be deleted. This cannot be undone.",
+    "emptyTitle": "Nothing played yet",
+    "emptyBody": "Songs you play are saved here, even offline.",
+    "unknownAuthor": "Unknown"
+  },
+  "player": {
+    "nowPlaying": "NOW PLAYING",
+    "paused": "PAUSED",
+    "loading": "LOADING",
+    "queueTitle": {
+      "one": "QUEUE · 1 SONG",
+      "other": "QUEUE · {0} SONGS"
+    },
+    "openQueue": "Open queue",
+    "closeQueue": "Close queue",
+    "pictureInPicture": "Shrink to floating window",
+    "fullscreen": "Watch fullscreen",
+    "close": "Close player",
+    "progressAria": "Progress bar",
+    "shuffle": "Shuffle",
+    "previous": "Previous track",
+    "next": "Next track",
+    "play": "Play",
+    "pause": "Pause",
+    "emptyTitle": "Nothing playing",
+    "emptyBody": "Pick a song from a list to start.",
+    "hint": "Keeps playing when you leave the app · Changing tracks needs TubeMix open",
+    "videoAria": "Video: {0}",
+    "playAria": "Play {0}",
+    "repeat": {
+      "off": "Repeat off",
+      "all": "Repeat all",
+      "one": "Repeat one"
+    }
+  },
+  "miniPlayer": {
+    "openAria": "Open player: {0}"
+  },
+  "detail": {
+    "playAll": "Play all",
+    "noTracks": "No songs here",
+    "trackCount": {
+      "one": "1 song",
+      "other": "{0} songs"
+    },
+    "saveAria": "Add {0} to Favorites",
+    "unsaveAria": "Remove {0} from Favorites",
+    "saveFailed": "Could not save. Please try again."
+  },
+  "playlist": {
+    "fallbackTitle": "Playlist",
+    "openFailed": "Could not open this playlist.",
+    "loadFailed": "Could not load the playlist.",
+    "emptyBody": "This playlist has no playable songs."
+  },
+  "artist": {
+    "fallbackTitle": "Artist",
+    "openFailed": "Could not open this artist page.",
+    "loadFailed": "Could not load the data.",
+    "emptyBody": "This artist has no playable videos yet."
+  },
+  "collection": {
+    "fallbackTitle": "Playlist",
+    "subtitle": {
+      "one": "1 song · stored on device",
+      "other": "{0} songs · stored on device"
+    },
+    "emptyBody": "This playlist is empty. Add songs from the search screen."
+  },
+  "track": {
+    "noTitle": "Untitled",
+    "moreAria": "Options for {0}",
+    "badgePlaylist": "Playlist",
+    "badgeArtist": "Artist"
+  },
+  "time": {
+    "justNow": "just now",
+    "minutesAgo": {
+      "one": "1 minute ago",
+      "other": "{0} minutes ago"
+    },
+    "hoursAgo": {
+      "one": "1 hour ago",
+      "other": "{0} hours ago"
+    },
+    "yesterday": "yesterday",
+    "daysAgo": "{0} days ago"
+  },
+  "errors": {
+    "offline": "No internet connection. Check your Wi-Fi or mobile data, then try again.",
+    "serverError": "Could not load data from the server. Try again in a few minutes.",
+    "videoUnplayable": "This video cannot be played",
+    "noStream": "No playable stream found for this video",
+    "playFailed": "Could not play this song",
+    "playFailedNamed": "Could not play \"{0}\"",
+    "stalled": "Could not load the data. Check your connection or try another song."
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "languageSystem": "Match system",
+    "languageHint": "Applies immediately — no restart needed.",
+    "about": "About",
+    "aboutBody": "TubeMix Mobile is the mobile version of TubeMix for desktop. It streams music and keeps the audio going when you leave the app or lock the screen.",
+    "version": "Version"
+  }
+}

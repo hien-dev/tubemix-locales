@@ -1,43 +1,71 @@
 # tubemix-locales
 
-Bản vá chữ hiển thị cho [TubeMix Mobile](https://github.com/hien-dev/TubeMix-Mobile).
-
-App tải `overlay.json` từ repo này rồi **đè lên** bản dịch đóng sẵn trong bundle.
-Sửa một chữ dịch sai không cần build lại app, không cần nộp App Store duyệt.
+Bản dịch của [TubeMix Mobile](https://github.com/hien-dev/TubeMix-Mobile), tách khỏi
+app để **sửa chữ mà không phải build lại và nộp App Store duyệt**.
 
 ```
-https://raw.githubusercontent.com/hien-dev/tubemix-locales/main/overlay.json
+locales/vi.json  en.json  ko.json  ja.json  zh.json  fr.json
 ```
 
-## Cách sửa
+App tải file của ngôn ngữ đang dùng rồi đè lên bản đóng sẵn trong bundle:
+
+```
+https://raw.githubusercontent.com/hien-dev/tubemix-locales/main/locales/<mã>.json
+```
+
+## Sửa thế nào
+
+Sửa thẳng file JSON. Cấu trúc khoá theo đúng `src/i18n/vi.ts` bên repo app.
+
+**Chỗ có biến** dùng `{0}`, `{1}` thay cho `${title}`:
 
 ```json
-{
-  "vi": { "search": { "noResults": "Không tìm thấy kết quả nào." } },
-  "ko": { "detail": { "saveAria": "{0}을(를) 즐겨찾기에 추가" } }
-}
+"saveAria": "Thêm {0} vào Yêu thích"
 ```
 
-- Mã ngôn ngữ: `vi` `en` `ko` `ja` `zh` `fr`
-- Đường dẫn khoá theo đúng cấu trúc `src/i18n/vi.ts` trong repo app
-- Khoá dạng hàm dùng `{0}`, `{1}` thay cho `${title}` — **thiếu là app bỏ qua cả khoá đó**
-- Khoá không có trong app thì bị bỏ qua, không gây lỗi
+**Chỗ chia số ít / số nhiều** dùng cặp `one` / `other`:
+
+```json
+"trackCount": { "one": "1 song", "other": "{0} songs" }
+```
+
+`one` dùng khi tham số đầu bằng 1. Tiếng Việt, Hàn, Nhật, Trung không chia số nên
+chỉ cần một chuỗi. Đủ cho ngôn ngữ hai dạng — **chưa đủ** cho Nga, Ba Lan (4 dạng)
+hay Ả Rập (6 dạng).
 
 ## Kiểm TRƯỚC khi đẩy
 
 Không có vòng duyệt nào phía sau repo này. Đẩy nhầm là tới thẳng người dùng.
 
 ```bash
-cd ../TubeMix-Mobile
-node scripts/check-i18n.mjs ../tubemix-locales/overlay.json
+node ../TubeMix-Mobile/scripts/check-i18n.mjs locales
 ```
 
-Có mục nào bị từ chối là exit 1. Sửa cho hết rồi mới commit.
+Bật chặn tự động một lần cho mỗi bản sao:
+
+```bash
+git config core.hooksPath .githooks
+```
 
 ## Khi hỏng thì sao
 
-App không bao giờ chết vì file này. Overlay tải không được, sai định dạng, hay
-thiếu biến — trường hợp xấu nhất là người dùng thấy **chữ cũ trong bundle**.
+App không bao giờ chết vì repo này. Tải không được, JSON sai, thiếu `{0}` — trường
+hợp xấu nhất là người dùng thấy **chữ cũ trong bundle**. Từng khoá hỏng bị bỏ riêng,
+những khoá còn lại vẫn áp dụng.
 
-Người dùng nhận bản sửa sau khoảng 5 phút (cache của raw.githubusercontent), kể từ
-lần tiếp theo họ mở lại app.
+Người dùng nhận bản sửa sau ~5 phút (cache của raw.githubusercontent), kể từ lần
+tiếp theo họ mở lại app hoặc đưa app về tiền cảnh.
+
+## Sinh lại từ app
+
+Các file ở đây được xuất ra từ `src/i18n/*.ts`:
+
+```bash
+node ../TubeMix-Mobile/scripts/export-locales.mjs
+```
+
+Script kiểm khứ hồi — dựng lại từ JSON rồi so từng khoá với hàm gốc — nên bản xuất
+không thể lệch nghĩa.
+
+**Sửa ở đây là bản vá nóng.** Nhớ chép lại vào `src/i18n/*.ts` bên app, không thì
+bản build sau sẽ quay về chữ cũ cho tới khi app tải lại được file này.

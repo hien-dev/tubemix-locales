@@ -1,0 +1,169 @@
+{
+  "brand": "TubeMix",
+  "tabs": {
+    "discover": "发现",
+    "search": "搜索",
+    "downloads": "下载",
+    "history": "历史"
+  },
+  "common": {
+    "cancel": "取消",
+    "delete": "删除",
+    "create": "创建",
+    "back": "返回",
+    "error": "错误",
+    "seeAll": "查看全部",
+    "loadFailed": "加载失败",
+    "goToSearch": "找音乐"
+  },
+  "discover": {
+    "title": "发现",
+    "recentlyPlayed": "最近播放",
+    "favorites": "收藏",
+    "openAria": "打开 {0}",
+    "recentSearches": "最近搜索",
+    "emptyTitle": "这里还是空的",
+    "emptyBody": "搜索一首歌开始吧，播放过的内容会出现在这里。",
+    "openSettings": "设置",
+    "playAria": "播放 {0}"
+  },
+  "search": {
+    "title": "搜索",
+    "placeholder": "搜索歌曲、艺人、专辑…",
+    "inputAria": "搜索框",
+    "clearAria": "清空搜索",
+    "recentTitle": "最近搜索",
+    "emptyTitle": "开始听歌",
+    "emptyBody": "输入歌曲、艺人或专辑名称开始搜索。",
+    "noResults": "没有找到结果。",
+    "loadFailed": "无法加载结果。",
+    "searchAgainAria": "重新搜索：{0}",
+    "removeKeywordAria": "删除关键词 {0}",
+    "filters": {
+      "all": "全部",
+      "songs": "视频",
+      "albums": "专辑",
+      "artists": "艺人",
+      "live": "直播"
+    }
+  },
+  "downloads": {
+    "title": "下载",
+    "inProgress": "正在下载",
+    "waitingForNetwork": "等待网络",
+    "emptyTitle": "还没有下载",
+    "emptyBody": "在播放器里点下载按钮保存歌曲。已下载的歌曲无需联网也能播放。",
+    "usage": "{0} 首 · {1}",
+    "download": "下载到设备",
+    "downloaded": "已保存在设备",
+    "cancelAria": "取消下载 {0}",
+    "removeTitle": "删除下载",
+    "removeMessage": "要从设备中删除“{0}”吗？联网时仍可继续播放。",
+    "failed": "无法下载“{0}”。请检查网络后重试。",
+    "removeFailed": "无法删除下载。",
+    "listFailed": "无法读取下载列表。",
+    "done": "“{0}”下载完成",
+    "sizeWarning": "因为只提供带画面的流，这首约 {0}。要下载吗？"
+  },
+  "favorites": {
+    "title": "收藏",
+    "emptyTitle": "还没有收藏",
+    "emptyBody": "点专辑或艺人页面上的爱心即可收藏，之后会出现在这里。"
+  },
+  "history": {
+    "title": "历史",
+    "clearAll": "全部清空",
+    "clearAria": "清空全部历史",
+    "clearTitle": "清空历史",
+    "clearMessage": "全部播放历史将被删除，且无法恢复。",
+    "emptyTitle": "还没有播放记录",
+    "emptyBody": "播放过的歌曲会保存在这里，离线也能看到。",
+    "unknownAuthor": "未知"
+  },
+  "player": {
+    "nowPlaying": "正在播放",
+    "paused": "已暂停",
+    "loading": "加载中",
+    "queueTitle": "播放队列 · {0} 首",
+    "openQueue": "打开队列",
+    "closeQueue": "关闭队列",
+    "pictureInPicture": "缩成小窗",
+    "fullscreen": "全屏观看",
+    "close": "关闭播放器",
+    "progressAria": "播放进度",
+    "shuffle": "随机播放",
+    "previous": "上一首",
+    "next": "下一首",
+    "play": "播放",
+    "pause": "暂停",
+    "emptyTitle": "没有正在播放的歌曲",
+    "emptyBody": "从列表里选一首歌开始。",
+    "hint": "离开应用也会继续播放 · 切歌需要打开 TubeMix",
+    "videoAria": "视频：{0}",
+    "playAria": "播放 {0}",
+    "repeat": {
+      "off": "不重复",
+      "all": "列表循环",
+      "one": "单曲循环"
+    }
+  },
+  "miniPlayer": {
+    "openAria": "打开播放器：{0}"
+  },
+  "detail": {
+    "playAll": "播放全部",
+    "noTracks": "这里没有歌曲",
+    "trackCount": "{0} 首",
+    "saveAria": "把 {0} 加入收藏",
+    "unsaveAria": "把 {0} 移出收藏",
+    "saveFailed": "保存失败，请重试。"
+  },
+  "playlist": {
+    "fallbackTitle": "播放列表",
+    "openFailed": "无法打开这个播放列表。",
+    "loadFailed": "无法加载播放列表。",
+    "emptyBody": "这个播放列表里没有可播放的歌曲。"
+  },
+  "artist": {
+    "fallbackTitle": "艺人",
+    "openFailed": "无法打开这个艺人页面。",
+    "loadFailed": "无法加载数据。",
+    "emptyBody": "这位艺人暂时没有可播放的视频。"
+  },
+  "collection": {
+    "fallbackTitle": "播放列表",
+    "subtitle": "{0} 首 · 存在设备上",
+    "emptyBody": "这个播放列表是空的，去搜索页面添加歌曲吧。"
+  },
+  "track": {
+    "noTitle": "无标题",
+    "moreAria": "{0} 的选项",
+    "badgePlaylist": "播放列表",
+    "badgeArtist": "艺人"
+  },
+  "time": {
+    "justNow": "刚刚",
+    "minutesAgo": "{0} 分钟前",
+    "hoursAgo": "{0} 小时前",
+    "yesterday": "昨天",
+    "daysAgo": "{0} 天前"
+  },
+  "errors": {
+    "offline": "没有网络连接。请检查 Wi-Fi 或移动数据后重试。",
+    "serverError": "无法从服务器加载数据，请几分钟后重试。",
+    "videoUnplayable": "这个视频无法播放",
+    "noStream": "找不到可播放的流",
+    "playFailed": "无法播放这首歌",
+    "playFailedNamed": "无法播放“{0}”",
+    "stalled": "无法加载数据。请检查网络，或换一首歌试试。"
+  },
+  "settings": {
+    "title": "设置",
+    "language": "语言",
+    "languageSystem": "跟随系统",
+    "languageHint": "立即生效，无需重启应用。",
+    "about": "关于",
+    "aboutBody": "TubeMix Mobile 是桌面版 TubeMix 的移动版。它在线播放音乐，离开应用或锁屏时声音会继续。",
+    "version": "版本"
+  }
+}

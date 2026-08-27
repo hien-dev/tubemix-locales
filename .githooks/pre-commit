@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+#
+# Chặn commit bản dịch hỏng. Không còn vòng duyệt App Store nào phía sau repo này.
+# Bật một lần:  git config core.hooksPath .githooks
+set -euo pipefail
+
+ROOT="$(git rev-parse --show-toplevel)"
+CHECKER="$ROOT/../TubeMix-Mobile/scripts/check-i18n.mjs"
+
+if [[ ! -f "$CHECKER" ]]; then
+  echo "pre-commit: không thấy $CHECKER" >&2
+  echo "  Clone TubeMix-Mobile cạnh repo này thì hook mới soát được." >&2
+  exit 1
+fi
+
+node "$CHECKER" "$ROOT/locales" || {
+  echo "" >&2
+  echo "pre-commit: bản dịch có mục app sẽ bỏ qua. Sửa trước khi commit." >&2
+  exit 1
+}

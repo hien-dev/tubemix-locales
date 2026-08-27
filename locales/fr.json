@@ -1,0 +1,187 @@
+{
+  "brand": "TubeMix",
+  "tabs": {
+    "discover": "Découvrir",
+    "search": "Recherche",
+    "downloads": "Téléchargements",
+    "history": "Historique"
+  },
+  "common": {
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "create": "Créer",
+    "back": "Retour",
+    "error": "Erreur",
+    "seeAll": "Tout voir",
+    "loadFailed": "Chargement impossible",
+    "goToSearch": "Trouver de la musique"
+  },
+  "discover": {
+    "title": "Découvrir",
+    "recentlyPlayed": "Écoutés récemment",
+    "favorites": "Favoris",
+    "openAria": "Ouvrir {0}",
+    "recentSearches": "Recherches récentes",
+    "emptyTitle": "Rien pour l'instant",
+    "emptyBody": "Cherchez un titre pour commencer. Ce que vous écoutez apparaîtra ici.",
+    "openSettings": "Réglages",
+    "playAria": "Lire {0}"
+  },
+  "search": {
+    "title": "Recherche",
+    "placeholder": "Titres, artistes, albums…",
+    "inputAria": "Champ de recherche",
+    "clearAria": "Effacer la recherche",
+    "recentTitle": "Recherches récentes",
+    "emptyTitle": "Commencez à écouter",
+    "emptyBody": "Saisissez un titre, un artiste ou un album pour lancer la recherche.",
+    "noResults": "Aucun résultat.",
+    "loadFailed": "Impossible de charger les résultats.",
+    "searchAgainAria": "Rechercher à nouveau : {0}",
+    "removeKeywordAria": "Supprimer le mot-clé {0}",
+    "filters": {
+      "all": "Tout",
+      "songs": "Vidéos",
+      "albums": "Albums",
+      "artists": "Artistes",
+      "live": "En direct"
+    }
+  },
+  "downloads": {
+    "title": "Téléchargements",
+    "inProgress": "Téléchargement",
+    "waitingForNetwork": "en attente du réseau",
+    "emptyTitle": "Aucun téléchargement",
+    "emptyBody": "Appuyez sur le bouton de téléchargement dans le lecteur pour enregistrer un titre. Les titres téléchargés se lisent sans connexion.",
+    "usage": {
+      "one": "1 titre · {1}",
+      "other": "{0} titres · {1}"
+    },
+    "download": "Télécharger",
+    "downloaded": "Enregistré sur cet appareil",
+    "cancelAria": "Annuler le téléchargement de {0}",
+    "removeTitle": "Supprimer le téléchargement",
+    "removeMessage": "Supprimer « {0} » de cet appareil ? Vous pourrez toujours l'écouter en ligne.",
+    "failed": "Impossible de télécharger « {0} ». Vérifiez votre connexion et réessayez.",
+    "removeFailed": "Impossible de supprimer le téléchargement.",
+    "listFailed": "Impossible de lire la liste des téléchargements.",
+    "done": "« {0} » téléchargé",
+    "sizeWarning": "Ce titre fait environ {0}, car seul un flux avec vidéo est disponible. Le télécharger ?"
+  },
+  "favorites": {
+    "title": "Favoris",
+    "emptyTitle": "Aucun favori",
+    "emptyBody": "Appuyez sur le cœur d'un album ou d'un artiste pour l'enregistrer. Il apparaîtra ici."
+  },
+  "history": {
+    "title": "Historique",
+    "clearAll": "Tout effacer",
+    "clearAria": "Effacer tout l'historique",
+    "clearTitle": "Effacer l'historique",
+    "clearMessage": "Tout votre historique d'écoute sera supprimé. Cette action est irréversible.",
+    "emptyTitle": "Rien d'écouté pour l'instant",
+    "emptyBody": "Les titres que vous lisez sont enregistrés ici, même hors ligne.",
+    "unknownAuthor": "Inconnu"
+  },
+  "player": {
+    "nowPlaying": "EN LECTURE",
+    "paused": "EN PAUSE",
+    "loading": "CHARGEMENT",
+    "queueTitle": {
+      "one": "FILE · 1 TITRE",
+      "other": "FILE · {0} TITRES"
+    },
+    "openQueue": "Ouvrir la file",
+    "closeQueue": "Fermer la file",
+    "pictureInPicture": "Réduire en fenêtre flottante",
+    "fullscreen": "Regarder en plein écran",
+    "close": "Fermer le lecteur",
+    "progressAria": "Barre de progression",
+    "shuffle": "Lecture aléatoire",
+    "previous": "Titre précédent",
+    "next": "Titre suivant",
+    "play": "Lire",
+    "pause": "Pause",
+    "emptyTitle": "Aucune lecture en cours",
+    "emptyBody": "Choisissez un titre dans une liste pour commencer.",
+    "hint": "La lecture continue quand vous quittez l'app · Changer de titre nécessite TubeMix ouvert",
+    "videoAria": "Vidéo : {0}",
+    "playAria": "Lire {0}",
+    "repeat": {
+      "off": "Répétition désactivée",
+      "all": "Répéter tout",
+      "one": "Répéter le titre"
+    }
+  },
+  "miniPlayer": {
+    "openAria": "Ouvrir le lecteur : {0}"
+  },
+  "detail": {
+    "playAll": "Tout lire",
+    "noTracks": "Aucun titre ici",
+    "trackCount": {
+      "one": "1 titre",
+      "other": "{0} titres"
+    },
+    "saveAria": "Ajouter {0} aux favoris",
+    "unsaveAria": "Retirer {0} des favoris",
+    "saveFailed": "Enregistrement impossible. Réessayez."
+  },
+  "playlist": {
+    "fallbackTitle": "Playlist",
+    "openFailed": "Impossible d'ouvrir cette playlist.",
+    "loadFailed": "Impossible de charger la playlist.",
+    "emptyBody": "Cette playlist ne contient aucun titre lisible."
+  },
+  "artist": {
+    "fallbackTitle": "Artiste",
+    "openFailed": "Impossible d'ouvrir la page de cet artiste.",
+    "loadFailed": "Impossible de charger les données.",
+    "emptyBody": "Cet artiste n'a pas encore de vidéo lisible."
+  },
+  "collection": {
+    "fallbackTitle": "Playlist",
+    "subtitle": {
+      "one": "1 titre · sur l'appareil",
+      "other": "{0} titres · sur l'appareil"
+    },
+    "emptyBody": "Cette playlist est vide. Ajoutez des titres depuis la recherche."
+  },
+  "track": {
+    "noTitle": "Sans titre",
+    "moreAria": "Options pour {0}",
+    "badgePlaylist": "Playlist",
+    "badgeArtist": "Artiste"
+  },
+  "time": {
+    "justNow": "à l'instant",
+    "minutesAgo": {
+      "one": "il y a 1 minute",
+      "other": "il y a {0} minutes"
+    },
+    "hoursAgo": {
+      "one": "il y a 1 heure",
+      "other": "il y a {0} heures"
+    },
+    "yesterday": "hier",
+    "daysAgo": "il y a {0} jours"
+  },
+  "errors": {
+    "offline": "Aucune connexion Internet. Vérifiez votre Wi-Fi ou vos données mobiles, puis réessayez.",
+    "serverError": "Impossible de charger les données du serveur. Réessayez dans quelques minutes.",
+    "videoUnplayable": "Cette vidéo ne peut pas être lue",
+    "noStream": "Aucun flux lisible trouvé pour cette vidéo",
+    "playFailed": "Impossible de lire ce titre",
+    "playFailedNamed": "Impossible de lire « {0} »",
+    "stalled": "Impossible de charger les données. Vérifiez votre connexion ou essayez un autre titre."
+  },
+  "settings": {
+    "title": "Réglages",
+    "language": "Langue",
+    "languageSystem": "Suivre le système",
+    "languageHint": "Appliqué immédiatement, aucun redémarrage nécessaire.",
+    "about": "À propos",
+    "aboutBody": "TubeMix Mobile est la version mobile de TubeMix pour ordinateur. Il diffuse de la musique et garde le son actif quand vous quittez l'app ou verrouillez l'écran.",
+    "version": "Version"
+  }
+}

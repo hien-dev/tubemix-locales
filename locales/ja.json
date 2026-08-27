@@ -1,0 +1,169 @@
+{
+  "brand": "TubeMix",
+  "tabs": {
+    "discover": "見つける",
+    "search": "検索",
+    "downloads": "ダウンロード",
+    "history": "履歴"
+  },
+  "common": {
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "create": "作成",
+    "back": "戻る",
+    "error": "エラー",
+    "seeAll": "すべて表示",
+    "loadFailed": "読み込めませんでした",
+    "goToSearch": "音楽を探す"
+  },
+  "discover": {
+    "title": "見つける",
+    "recentlyPlayed": "最近再生した曲",
+    "favorites": "お気に入り",
+    "openAria": "{0} を開く",
+    "recentSearches": "最近の検索",
+    "emptyTitle": "まだ何もありません",
+    "emptyBody": "曲を検索して始めましょう。再生した曲がここに表示されます。",
+    "openSettings": "設定",
+    "playAria": "{0} を再生"
+  },
+  "search": {
+    "title": "検索",
+    "placeholder": "曲、アーティスト、アルバムを検索…",
+    "inputAria": "検索欄",
+    "clearAria": "検索をクリア",
+    "recentTitle": "最近の検索",
+    "emptyTitle": "音楽を聴きましょう",
+    "emptyBody": "曲、アーティスト、アルバム名を入力して検索を始めましょう。",
+    "noResults": "結果が見つかりませんでした。",
+    "loadFailed": "結果を読み込めませんでした。",
+    "searchAgainAria": "再検索: {0}",
+    "removeKeywordAria": "検索語「{0}」を削除",
+    "filters": {
+      "all": "すべて",
+      "songs": "動画",
+      "albums": "アルバム",
+      "artists": "アーティスト",
+      "live": "ライブ"
+    }
+  },
+  "downloads": {
+    "title": "ダウンロード",
+    "inProgress": "ダウンロード中",
+    "waitingForNetwork": "ネットワーク待ち",
+    "emptyTitle": "ダウンロードはありません",
+    "emptyBody": "プレーヤーのダウンロードボタンで曲を保存できます。保存した曲はオフラインでも再生できます。",
+    "usage": "{0}曲 · {1}",
+    "download": "端末に保存",
+    "downloaded": "端末に保存済み",
+    "cancelAria": "{0} のダウンロードをキャンセル",
+    "removeTitle": "ダウンロードを削除",
+    "removeMessage": "「{0}」を端末から削除しますか？オンラインでは引き続き再生できます。",
+    "failed": "「{0}」をダウンロードできませんでした。接続を確認して再試行してください。",
+    "removeFailed": "ダウンロードを削除できませんでした。",
+    "listFailed": "ダウンロード一覧を読み込めませんでした。",
+    "done": "「{0}」のダウンロードが完了しました",
+    "sizeWarning": "映像付きのストリームしか提供されていないため約 {0} あります。ダウンロードしますか？"
+  },
+  "favorites": {
+    "title": "お気に入り",
+    "emptyTitle": "保存した項目はありません",
+    "emptyBody": "アルバムやアーティストのハートを押すと保存され、ここに表示されます。"
+  },
+  "history": {
+    "title": "履歴",
+    "clearAll": "すべて削除",
+    "clearAria": "履歴をすべて削除",
+    "clearTitle": "履歴を削除",
+    "clearMessage": "再生履歴がすべて削除されます。元に戻せません。",
+    "emptyTitle": "まだ再生していません",
+    "emptyBody": "再生した曲はオフラインでもここに保存されます。",
+    "unknownAuthor": "不明"
+  },
+  "player": {
+    "nowPlaying": "再生中",
+    "paused": "一時停止中",
+    "loading": "読み込み中",
+    "queueTitle": "再生キュー · {0}曲",
+    "openQueue": "キューを開く",
+    "closeQueue": "キューを閉じる",
+    "pictureInPicture": "小さな画面で見る",
+    "fullscreen": "全画面で見る",
+    "close": "プレーヤーを閉じる",
+    "progressAria": "再生位置",
+    "shuffle": "シャッフル",
+    "previous": "前の曲",
+    "next": "次の曲",
+    "play": "再生",
+    "pause": "一時停止",
+    "emptyTitle": "再生中の曲はありません",
+    "emptyBody": "リストから曲を選んで始めましょう。",
+    "hint": "アプリを離れても再生は続きます · 曲の切り替えには TubeMix を開いてください",
+    "videoAria": "動画: {0}",
+    "playAria": "{0} を再生",
+    "repeat": {
+      "off": "リピートなし",
+      "all": "全曲リピート",
+      "one": "1曲リピート"
+    }
+  },
+  "miniPlayer": {
+    "openAria": "プレーヤーを開く: {0}"
+  },
+  "detail": {
+    "playAll": "すべて再生",
+    "noTracks": "曲がありません",
+    "trackCount": "{0}曲",
+    "saveAria": "{0} をお気に入りに追加",
+    "unsaveAria": "{0} をお気に入りから削除",
+    "saveFailed": "保存できませんでした。もう一度お試しください。"
+  },
+  "playlist": {
+    "fallbackTitle": "プレイリスト",
+    "openFailed": "このプレイリストを開けませんでした。",
+    "loadFailed": "プレイリストを読み込めませんでした。",
+    "emptyBody": "再生できる曲がありません。"
+  },
+  "artist": {
+    "fallbackTitle": "アーティスト",
+    "openFailed": "アーティストページを開けませんでした。",
+    "loadFailed": "データを読み込めませんでした。",
+    "emptyBody": "再生できる動画はまだありません。"
+  },
+  "collection": {
+    "fallbackTitle": "プレイリスト",
+    "subtitle": "{0}曲 · 端末に保存",
+    "emptyBody": "このプレイリストは空です。検索画面から曲を追加してください。"
+  },
+  "track": {
+    "noTitle": "タイトルなし",
+    "moreAria": "{0} のオプション",
+    "badgePlaylist": "プレイリスト",
+    "badgeArtist": "アーティスト"
+  },
+  "time": {
+    "justNow": "たった今",
+    "minutesAgo": "{0}分前",
+    "hoursAgo": "{0}時間前",
+    "yesterday": "昨日",
+    "daysAgo": "{0}日前"
+  },
+  "errors": {
+    "offline": "インターネットに接続していません。Wi-Fi またはモバイルデータを確認してから再試行してください。",
+    "serverError": "サーバーからデータを読み込めませんでした。数分後に再試行してください。",
+    "videoUnplayable": "この動画は再生できません",
+    "noStream": "再生可能なストリームが見つかりません",
+    "playFailed": "この曲を再生できませんでした",
+    "playFailedNamed": "「{0}」を再生できませんでした",
+    "stalled": "データを読み込めませんでした。接続を確認するか、別の曲をお試しください。"
+  },
+  "settings": {
+    "title": "設定",
+    "language": "言語",
+    "languageSystem": "システムに合わせる",
+    "languageHint": "すぐに反映されます。再起動は不要です。",
+    "about": "このアプリについて",
+    "aboutBody": "TubeMix Mobile はデスクトップ版 TubeMix のモバイル版です。音楽をストリーミングし、アプリを離れても画面をロックしても再生を続けます。",
+    "version": "バージョン"
+  }
+}
