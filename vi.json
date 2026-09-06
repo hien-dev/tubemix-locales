@@ -94,6 +94,8 @@
     "shuffle": "Phát ngẫu nhiên",
     "previous": "Bài trước",
     "next": "Bài kế tiếp",
+    "rewind10": "Lùi 10 giây",
+    "forward10": "Tua 10 giây",
     "play": "Phát",
     "pause": "Tạm dừng",
     "emptyTitle": "Chưa phát bài nào",

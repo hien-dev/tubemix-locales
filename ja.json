@@ -94,6 +94,8 @@
     "shuffle": "シャッフル",
     "previous": "前の曲",
     "next": "次の曲",
+    "rewind10": "10秒戻る",
+    "forward10": "10秒進む",
     "play": "再生",
     "pause": "一時停止",
     "emptyTitle": "再生中の曲はありません",
