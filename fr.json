@@ -109,6 +109,7 @@
     "hint": "La lecture continue quand vous quittez l'app · Changer de titre nécessite TubeMix ouvert",
     "videoAria": "Vidéo : {0}",
     "playAria": "Lire {0}",
+    "openArtistAria": "Ouvrir la page de {0}",
     "repeat": {
       "off": "Répétition désactivée",
       "all": "Répéter tout",
@@ -121,6 +122,8 @@
   "detail": {
     "playAll": "Tout lire",
     "noTracks": "Aucun titre ici",
+    "albums": "Albums",
+    "openAria": "Ouvrir {0}",
     "trackCount": {
       "one": "1 titre",
       "other": "{0} titres"
@@ -152,6 +155,7 @@
   "track": {
     "noTitle": "Sans titre",
     "moreAria": "Options pour {0}",
+    "removeAria": "Supprimer {0}",
     "badgePlaylist": "Playlist",
     "badgeArtist": "Artiste"
   },

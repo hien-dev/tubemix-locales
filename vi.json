@@ -103,6 +103,7 @@
     "hint": "Vẫn phát khi bạn thoát app · Chuyển bài cần mở lại TubeMix",
     "videoAria": "Video: {0}",
     "playAria": "Phát {0}",
+    "openArtistAria": "Mở trang của {0}",
     "repeat": {
       "off": "Không lặp",
       "all": "Lặp danh sách",
@@ -115,6 +116,8 @@
   "detail": {
     "playAll": "Phát tất cả",
     "noTracks": "Không có bài nào",
+    "albums": "Album",
+    "openAria": "Mở {0}",
     "trackCount": "{0} bài",
     "saveAria": "Thêm {0} vào Yêu thích",
     "unsaveAria": "Bỏ {0} khỏi Yêu thích",
@@ -140,6 +143,7 @@
   "track": {
     "noTitle": "Không có tiêu đề",
     "moreAria": "Tuỳ chọn cho {0}",
+    "removeAria": "Xoá {0}",
     "badgePlaylist": "Playlist",
     "badgeArtist": "Nghệ sĩ"
   },

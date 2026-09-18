@@ -103,6 +103,7 @@
     "hint": "앱을 나가도 계속 재생됩니다 · 곡을 바꾸려면 TubeMix를 열어야 합니다",
     "videoAria": "동영상: {0}",
     "playAria": "{0} 재생",
+    "openArtistAria": "{0} 페이지 열기",
     "repeat": {
       "off": "반복 안 함",
       "all": "전체 반복",
@@ -115,6 +116,8 @@
   "detail": {
     "playAll": "전체 재생",
     "noTracks": "노래가 없습니다",
+    "albums": "앨범",
+    "openAria": "{0} 열기",
     "trackCount": "{0}곡",
     "saveAria": "{0}을(를) 즐겨찾기에 추가",
     "unsaveAria": "{0}을(를) 즐겨찾기에서 삭제",
@@ -140,6 +143,7 @@
   "track": {
     "noTitle": "제목 없음",
     "moreAria": "{0} 옵션",
+    "removeAria": "{0} 삭제",
     "badgePlaylist": "재생목록",
     "badgeArtist": "아티스트"
   },

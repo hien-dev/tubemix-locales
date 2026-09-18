@@ -103,6 +103,7 @@
     "hint": "离开应用也会继续播放 · 切歌需要打开 TubeMix",
     "videoAria": "视频：{0}",
     "playAria": "播放 {0}",
+    "openArtistAria": "打开 {0} 的页面",
     "repeat": {
       "off": "不重复",
       "all": "列表循环",
@@ -115,6 +116,8 @@
   "detail": {
     "playAll": "播放全部",
     "noTracks": "这里没有歌曲",
+    "albums": "专辑",
+    "openAria": "打开 {0}",
     "trackCount": "{0} 首",
     "saveAria": "把 {0} 加入收藏",
     "unsaveAria": "把 {0} 移出收藏",
@@ -140,6 +143,7 @@
   "track": {
     "noTitle": "无标题",
     "moreAria": "{0} 的选项",
+    "removeAria": "删除 {0}",
     "badgePlaylist": "播放列表",
     "badgeArtist": "艺人"
   },

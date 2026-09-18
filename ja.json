@@ -103,6 +103,7 @@
     "hint": "アプリを離れても再生は続きます · 曲の切り替えには TubeMix を開いてください",
     "videoAria": "動画: {0}",
     "playAria": "{0} を再生",
+    "openArtistAria": "{0} のページを開く",
     "repeat": {
       "off": "リピートなし",
       "all": "全曲リピート",
@@ -115,6 +116,8 @@
   "detail": {
     "playAll": "すべて再生",
     "noTracks": "曲がありません",
+    "albums": "アルバム",
+    "openAria": "{0} を開く",
     "trackCount": "{0}曲",
     "saveAria": "{0} をお気に入りに追加",
     "unsaveAria": "{0} をお気に入りから削除",
@@ -140,6 +143,7 @@
   "track": {
     "noTitle": "タイトルなし",
     "moreAria": "{0} のオプション",
+    "removeAria": "{0} を削除",
     "badgePlaylist": "プレイリスト",
     "badgeArtist": "アーティスト"
   },
