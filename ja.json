@@ -121,7 +121,9 @@
     "trackCount": "{0}曲",
     "saveAria": "{0} をお気に入りに追加",
     "unsaveAria": "{0} をお気に入りから削除",
-    "saveFailed": "保存できませんでした。もう一度お試しください。"
+    "saveFailed": "保存できませんでした。もう一度お試しください。",
+    "sortReverseAria": "リストの順序を逆にする",
+    "sortRestoreAria": "アルバム本来の順序に戻す"
   },
   "playlist": {
     "fallbackTitle": "プレイリスト",

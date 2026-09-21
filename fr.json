@@ -130,7 +130,9 @@
     },
     "saveAria": "Ajouter {0} aux favoris",
     "unsaveAria": "Retirer {0} des favoris",
-    "saveFailed": "Enregistrement impossible. Réessayez."
+    "saveFailed": "Enregistrement impossible. Réessayez.",
+    "sortReverseAria": "Inverser l'ordre de la liste",
+    "sortRestoreAria": "Rétablir l'ordre d'origine de l'album"
   },
   "playlist": {
     "fallbackTitle": "Playlist",

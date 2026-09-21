@@ -121,7 +121,9 @@
     "trackCount": "{0} 首",
     "saveAria": "把 {0} 加入收藏",
     "unsaveAria": "把 {0} 移出收藏",
-    "saveFailed": "保存失败，请重试。"
+    "saveFailed": "保存失败，请重试。",
+    "sortReverseAria": "反转列表顺序",
+    "sortRestoreAria": "恢复专辑原始顺序"
   },
   "playlist": {
     "fallbackTitle": "播放列表",

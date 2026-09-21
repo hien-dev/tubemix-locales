@@ -121,7 +121,9 @@
     "trackCount": "{0} bài",
     "saveAria": "Thêm {0} vào Yêu thích",
     "unsaveAria": "Bỏ {0} khỏi Yêu thích",
-    "saveFailed": "Không lưu được. Thử lại nhé."
+    "saveFailed": "Không lưu được. Thử lại nhé.",
+    "sortReverseAria": "Đảo ngược thứ tự danh sách",
+    "sortRestoreAria": "Trở về thứ tự gốc của album"
   },
   "playlist": {
     "fallbackTitle": "Playlist",

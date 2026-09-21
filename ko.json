@@ -121,7 +121,9 @@
     "trackCount": "{0}곡",
     "saveAria": "{0}을(를) 즐겨찾기에 추가",
     "unsaveAria": "{0}을(를) 즐겨찾기에서 삭제",
-    "saveFailed": "저장하지 못했습니다. 다시 시도해 주세요."
+    "saveFailed": "저장하지 못했습니다. 다시 시도해 주세요.",
+    "sortReverseAria": "목록 순서 뒤집기",
+    "sortRestoreAria": "앨범 원래 순서로 되돌리기"
   },
   "playlist": {
     "fallbackTitle": "재생목록",

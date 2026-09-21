@@ -130,7 +130,9 @@
     },
     "saveAria": "Add {0} to Favorites",
     "unsaveAria": "Remove {0} from Favorites",
-    "saveFailed": "Could not save. Please try again."
+    "saveFailed": "Could not save. Please try again.",
+    "sortReverseAria": "Reverse list order",
+    "sortRestoreAria": "Restore original album order"
   },
   "playlist": {
     "fallbackTitle": "Playlist",
