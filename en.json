@@ -179,7 +179,10 @@
     "noStream": "No playable stream found for this video",
     "playFailed": "Could not play this song",
     "playFailedNamed": "Could not play \"{0}\"",
-    "stalled": "Could not load the data. Check your connection or try another song."
+    "stalled": "Could not load the data. Check your connection or try another song.",
+    "crashTitle": "Something went wrong on this screen",
+    "crashBody": "An unexpected error happened. Try reopening it — anything playing keeps going.",
+    "crashRetry": "Try again"
   },
   "settings": {
     "title": "Settings",
@@ -188,6 +191,12 @@
     "languageHint": "Applies immediately — no restart needed.",
     "about": "About",
     "aboutBody": "TubeMix Mobile is the mobile version of TubeMix for desktop. It streams music and keeps the audio going when you leave the app or lock the screen.",
-    "version": "Version"
+    "version": "Version",
+    "saveFailed": "Could not save the change",
+    "privacy": "Privacy",
+    "crashReporting": "Send crash reports",
+    "crashReportingHint": "Send technical details when the app hits an error, so it gets fixed faster. Never includes song titles, search terms or your listening history.",
+    "testCrash": "Send a test crash",
+    "testCrashBody": "The app will close right away to send a test report. Open it again afterwards."
   }
 }

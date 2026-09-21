@@ -102,8 +102,8 @@
     "emptyBody": "Chọn một bài từ danh sách để bắt đầu.",
     "hint": "Vẫn phát khi bạn thoát app · Chuyển bài cần mở lại TubeMix",
     "videoAria": "Video: {0}",
-    "playAria": "Phát {0}",
     "openArtistAria": "Mở trang của {0}",
+    "playAria": "Phát {0}",
     "repeat": {
       "off": "Không lặp",
       "all": "Lặp danh sách",
@@ -161,7 +161,10 @@
     "noStream": "Không tìm thấy luồng phát được cho video này",
     "playFailed": "Không phát được bài này",
     "playFailedNamed": "Không phát được \"{0}\"",
-    "stalled": "Không tải được dữ liệu. Kiểm tra mạng hoặc thử bài khác."
+    "stalled": "Không tải được dữ liệu. Kiểm tra mạng hoặc thử bài khác.",
+    "crashTitle": "Màn hình này gặp sự cố",
+    "crashBody": "Đã có lỗi ngoài dự tính. Thử mở lại, nhạc đang phát vẫn chạy bình thường.",
+    "crashRetry": "Thử lại"
   },
   "settings": {
     "title": "Cài đặt",
@@ -170,6 +173,12 @@
     "languageHint": "Áp dụng ngay, không cần khởi động lại app.",
     "about": "Giới thiệu",
     "aboutBody": "TubeMix Mobile là bản di động của TubeMix trên desktop. App phát nhạc trực tuyến và giữ tiếng chạy tiếp khi bạn thoát ra hoặc khoá màn hình.",
-    "version": "Phiên bản"
+    "version": "Phiên bản",
+    "saveFailed": "Không lưu được thay đổi",
+    "privacy": "Quyền riêng tư",
+    "crashReporting": "Gửi báo cáo sự cố",
+    "crashReportingHint": "Gửi thông tin kỹ thuật khi app gặp lỗi, để sửa nhanh hơn. Không gồm tên bài hát, từ khoá tìm kiếm hay lịch sử nghe của bạn.",
+    "testCrash": "Gửi sự cố thử nghiệm",
+    "testCrashBody": "App sẽ tắt ngay để gửi một báo cáo thử. Mở lại app sau đó."
   }
 }

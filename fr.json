@@ -179,7 +179,10 @@
     "noStream": "Aucun flux lisible trouvé pour cette vidéo",
     "playFailed": "Impossible de lire ce titre",
     "playFailedNamed": "Impossible de lire « {0} »",
-    "stalled": "Impossible de charger les données. Vérifiez votre connexion ou essayez un autre titre."
+    "stalled": "Impossible de charger les données. Vérifiez votre connexion ou essayez un autre titre.",
+    "crashTitle": "Un problème est survenu sur cet écran",
+    "crashBody": "Une erreur inattendue s'est produite. Réessayez de l'ouvrir : la lecture en cours continue.",
+    "crashRetry": "Réessayer"
   },
   "settings": {
     "title": "Réglages",
@@ -188,6 +191,12 @@
     "languageHint": "Appliqué immédiatement, aucun redémarrage nécessaire.",
     "about": "À propos",
     "aboutBody": "TubeMix Mobile est la version mobile de TubeMix pour ordinateur. Il diffuse de la musique et garde le son actif quand vous quittez l'app ou verrouillez l'écran.",
-    "version": "Version"
+    "version": "Version",
+    "saveFailed": "Impossible d'enregistrer la modification",
+    "privacy": "Confidentialité",
+    "crashReporting": "Envoyer les rapports de plantage",
+    "crashReportingHint": "Envoie des détails techniques en cas d'erreur, pour corriger plus vite. N'inclut jamais les titres, les recherches ni votre historique d'écoute.",
+    "testCrash": "Envoyer un plantage de test",
+    "testCrashBody": "L'application va se fermer immédiatement pour envoyer un rapport de test. Rouvrez-la ensuite."
   }
 }

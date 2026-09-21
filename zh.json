@@ -161,7 +161,10 @@
     "noStream": "找不到可播放的流",
     "playFailed": "无法播放这首歌",
     "playFailedNamed": "无法播放“{0}”",
-    "stalled": "无法加载数据。请检查网络，或换一首歌试试。"
+    "stalled": "无法加载数据。请检查网络，或换一首歌试试。",
+    "crashTitle": "此页面出现问题",
+    "crashBody": "发生了意外错误。请重新打开，正在播放的音乐不会中断。",
+    "crashRetry": "重试"
   },
   "settings": {
     "title": "设置",
@@ -170,6 +173,12 @@
     "languageHint": "立即生效，无需重启应用。",
     "about": "关于",
     "aboutBody": "TubeMix Mobile 是桌面版 TubeMix 的移动版。它在线播放音乐，离开应用或锁屏时声音会继续。",
-    "version": "版本"
+    "version": "版本",
+    "saveFailed": "无法保存更改",
+    "privacy": "隐私",
+    "crashReporting": "发送崩溃报告",
+    "crashReportingHint": "应用出错时发送技术信息，以便更快修复。不含歌曲名称、搜索关键词或你的收听记录。",
+    "testCrash": "发送测试崩溃",
+    "testCrashBody": "应用将立即关闭以发送一份测试报告。之后请重新打开。"
   }
 }
